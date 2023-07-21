@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin: 20px;
+  }
+  
+  .simon-board {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .simon-button {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .simon-button.lit {
+    background-color: lightgray;
+  }
+  
+  button, #score {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  
